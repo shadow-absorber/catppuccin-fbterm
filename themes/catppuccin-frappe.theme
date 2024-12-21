@@ -1,0 +1,35 @@
+background=303446
+foreground=c6d0f5
+cursorColor=f2d5cf
+
+# black
+color-0=51576d
+color-8=626880
+
+# red
+color-1=e78284
+color-9=e78284
+
+# green
+color-2=a6d189
+color-10=a6d189
+
+# yellow
+color-3=e5c890
+color-11=e5c890
+
+# blue
+color-4=8caaee
+color-12=8caaee
+
+# magenta
+color-5=f4b8e4
+color-13=f4b8e4
+
+# cyan
+color-6=81c8be
+color-14=81c8be
+
+# white
+color-7=b5bfe2
+color-15=a5adce

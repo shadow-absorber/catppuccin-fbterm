@@ -1,0 +1,54 @@
+---
+whiskers:
+  version: "2.5.1"
+  app: "fbterm"
+  author: "shadow-absorber"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{flavor.identifier}}.theme"
+---
+background={{base.hex}}
+foreground={{text.hex}}
+cursorColor={{rosewater.hex}}
+
+# black
+{%- if flavor.dark %}
+color-0={{surface1.hex}}
+color-8={{surface2.hex}}
+{%- else %}
+color-0={{subtext1.hex}}
+color-8={{subtext0.hex}}
+{%- endif %}
+
+# red
+color-1={{red.hex}}
+color-9={{red.hex}}
+
+# green
+color-2={{green.hex}}
+color-10={{green.hex}}
+
+# yellow
+color-3={{yellow.hex}}
+color-11={{yellow.hex}}
+
+# blue
+color-4={{blue.hex}}
+color-12={{blue.hex}}
+
+# magenta
+color-5={{pink.hex}}
+color-13={{pink.hex}}
+
+# cyan
+color-6={{teal.hex}}
+color-14={{teal.hex}}
+
+# white
+{%- if flavor.dark %}
+color-7={{subtext1.hex}}
+color-15={{subtext0.hex}}
+{%- else %}
+color-7={{surface2.hex}}
+color-15={{surface1.hex}}
+{%- endif %}
