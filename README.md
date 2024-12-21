@@ -36,9 +36,9 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+1. Download the flavor .theme file of your choice.
+2. Open fbtermrc in .config/fbterm/ and paste the contents of your flavor .theme file
+3. start fbterm from tty and enjoy your pleasant catppuccin colorscheme
 
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
