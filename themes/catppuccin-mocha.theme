@@ -2,6 +2,14 @@ background=1e1e2e
 foreground=cdd6f4
 cursorColor=f5e0dc
 
+# sets up colors for foreground and background
+color-240=1e1e2e
+color-241=cdd6f4
+
+# sets color foreground and background to the previous lines
+color-foreground=240
+color-background=241
+
 # black
 color-0=45475a
 color-8=585b70
