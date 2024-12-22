@@ -7,17 +7,13 @@ whiskers:
     - flavor
   filename: "themes/catppuccin-{{flavor.identifier}}.theme"
 ---
-background={{base.hex}}
-foreground={{text.hex}}
-cursorColor={{rosewater.hex}}
-
 # sets up colors for foreground and background
 color-240={{base.hex}}
 color-241={{text.hex}}
 
 # sets color foreground and background to the previous lines
-color-foreground=240
-color-background=241
+color-background=240
+color-foreground=241
 
 # black
 {%- if flavor.dark %}
