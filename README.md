@@ -46,6 +46,8 @@
 - Q: **_"What is fbterm?"_**\
   A: fbterm stands for framebuffer terminal.
      It is a terminal emulator that runs in the framebuffer on linux meaning you don't need x11 or wayland to run it.
+- Q: **_"Why would i use fbterm instead of regular linux TTY?"_**\
+  A: fbterm has support for normal fonts and nerd fonts. While also supporting background images and some graphical applications like mpv.
 - Q: **_"Do you have an example config?"_**\
   A: Yes. It is here [fbtermrc](https://github.com/shadow-absorber/dotfiles/blob/master/fbterm/.config/fbterm/fbtermrc)
 - Q: **_"Which version of fbterm do i need?"_**\
