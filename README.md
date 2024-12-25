@@ -43,8 +43,14 @@
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+- Q: **_"What is fbterm?"_**\
+  A: fbterm stands for framebuffer terminal.
+     It is a terminal emulator that runs in the framebuffer on linux meaning you don't need x11 or wayland to run it.
+- Q: **_"Do you have an example config?"_**\
+  A: Yes. It is here [fbtermrc](https://github.com/shadow-absorber/dotfiles/blob/master/fbterm/.config/fbterm/fbtermrc)
+- Q: **_"Which version of fbterm do i need?"_**\
+  A: This repo is targeting the arch user repository version of fbterm but might work with others.
+
 
 ## 💝 Thanks to
 
