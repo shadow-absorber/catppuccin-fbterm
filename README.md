@@ -43,16 +43,10 @@
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
 
-- Q: **_"What is fbterm?"_**\
-  A: fbterm stands for framebuffer terminal.
-     It is a terminal emulator that runs in the framebuffer on linux meaning you don't need x11 or wayland to run it.
-- Q: **_"Why would i use fbterm instead of regular linux TTY?"_**\
-  A: fbterm has support for normal fonts and nerd fonts. While also supporting background images and some graphical applications like mpv.
-- Q: **_"Do you have an example config?"_**\
-  A: Yes. It is here [fbtermrc](https://github.com/shadow-absorber/dotfiles/blob/master/fbterm/.config/fbterm/fbtermrc)
 - Q: **_"Which version of fbterm do i need?"_**\
   A: This repo is targeting the arch user repository version of fbterm but might work with others.
-
+- Q: **_"How is the foreground and background handled?"_**\
+  A: The foreground and background colors need to use 2 of the 256 colors of the terminal. This means that we have to override 2 of the colors with the colors from catppuccin. If this causes problems for you, edit the numbers in the fbtermrc config.
 
 ## 💝 Thanks to
 
